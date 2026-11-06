@@ -1,0 +1,18 @@
+[
+  {
+    "post_id": 1,
+    "expected_status": 200
+  },
+  {
+    "post_id": 2,
+    "expected_status": 200
+  },
+  {
+    "post_id": 3,
+    "expected_status": 200
+  },
+  {
+    "post_id": 10,
+    "expected_status": 200
+  }
+]

@@ -1,0 +1,19 @@
+# Python虚拟环境
+.venv/
+
+# Python缓存
+__pycache__/
+*.pyc
+
+# pytest缓存
+.pytest_cache/
+
+# Allure测试结果和报告
+allure-results/
+allure-report/
+
+# HTML测试报告
+report.html
+
+# 运行日志
+logs/
