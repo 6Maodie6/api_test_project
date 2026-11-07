@@ -71,7 +71,7 @@ jobs:
       # 8. 上传 Allure 原始结果
       - name: Upload Allure results
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: allure-results
           path: allure-results/
@@ -80,7 +80,7 @@ jobs:
       # 9. 上传 Allure HTML 报告
       - name: Upload Allure HTML report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: allure-report
           path: allure-report/
